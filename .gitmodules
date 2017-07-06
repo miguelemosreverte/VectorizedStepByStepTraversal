@@ -1,0 +1,6 @@
+[submodule "ImageVector"]
+	path = ImageVector/imagetracerjava
+	url = https://github.com/miguelemosreverte/imagetracerjava
+[submodule "ImageVector/imagetracerjava"]
+	path = ImageVector/imagetracerjava
+	url = https://github.com/miguelemosreverte/imagetracerjava
