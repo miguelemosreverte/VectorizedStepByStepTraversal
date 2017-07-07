@@ -7,9 +7,8 @@ app = FlaskAPI(__name__)
 
 
 @app.route("/PandaPNG_Test", methods=['GET'])
-def preparation():
-    ImageTracerClass.createSVG("base64_image", "panda.png")
-    return "pepe"
+def preparation():    
+    return ImageTracerClass.createSVG("base64_image", "panda.png")
 
 
 
